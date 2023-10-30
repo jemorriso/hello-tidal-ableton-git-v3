@@ -1,0 +1,6 @@
+d1 $ n "0 7 12" # sound "tidal1"
+
+-- this works I am psyched!
+d2 $ ccv "20 40 60 80 100" # ccn 30 # s "tidal1"
+
+d2 $ ccn "30*4" # ccv (range 20 100 $ slow 30 sine) # s "tidal1"
