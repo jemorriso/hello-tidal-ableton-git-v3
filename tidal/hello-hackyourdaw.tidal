@@ -1,0 +1,41 @@
+d1 $ n "0 7 12" # sound "synth"
+
+d2 $ sound "synth" # macro3 (fast 8 rand)
+
+d1 $ n "0 7 12" # sound "drums"
+
+d2 $ sound "drums" # macro3 (fast 8 rand)
+
+-- other commands I tried, most work
+
+d2 $ (range 20 100 $ slow 30 sine) # s "drums" # macro3 1
+
+d2 $ n "0 7 12" # sound "drums" # macro3
+
+d2 $ sound "drums" # macro3 1
+
+d2 $ n "0 7 12" # sound "drums" # macro3 1
+
+d2 $ sound "drums" # macro3 (range 0 1 $ slow 30 sine)
+
+d2 $ n "0 7 12" # sound "drums" # macro3 (range 0 1 $ slow 30 sine)
+
+d2 $ n "0 7 12" # sound "drums" # macro3 (slow 1.1 rand)
+
+d2 $ n "0" # sound "drums" # macro3 (rand)
+
+d2 $ n "0 0" # sound "drums" # macro3 (rand)
+
+d1 $ n "7 7 7 12" # sound "drums"
+
+d2 $ sound "drums" # macro3 (fast 4 rand)
+
+d2 $ sound "drums" # macro3 (fast 8 rand)
+
+d2 $ n "0 7 12" # sound "drums" # macro3 (range 0 1 $ slow 30 sine)
+
+d2 $ n "0*8" # sound "drums" # macro3 (range 0 1 $ slow 30 sine)
+
+d2 $ n "0 7 12" # sound "synth" # macro3 (range 0 1 $ slow 30 sine)
+
+d2 $ sound "synth" # macro3 (fast 8 rand)
