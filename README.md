@@ -1,15 +1,15 @@
-run `git-setup-minimal.sh` to set up hooks and filters
+3 midi tracks
 
-open ableton, create a track with a midi device, set it's `midi from` to `IACDriver (Tidal1)`
+1. configured to receive midi from `tidal/hello-tidal.tidal`
 
-start Supercollider in vim using `:SCNVimStart`
+2. configured to receive osc from `tidal/hello-hackyourdaw.tidal` "synth" sounmidid
 
-run commands in `midi-init.scd` using `ctrl+e` in visual mode
+3. configured to receive osc from `tidal/hello-hackyourdaw.tidal` "drums" sound
 
-start tidal in vim
+For 1, start a tidal instance using a normal `BootTidal.hs`
 
-put ableton in midi map mode, click on the parameter to map
+For 2 and 3, start tidal with `BootTidal.hs` in [HackYourDaw](https://github.com/fracnesco/HackYourDaw)
 
-send ccn to ableton by running line in `hello-tidal`, should see the parameter move in ableton
+### todo
 
-tidal and ableton are now synced, you can play tidal patterns and map parameters to tidal patterns!
+figure out how to run 2 different tidal / supercollider instances on different ports so you can send data via each method at the same time.
