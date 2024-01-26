@@ -10,7 +10,7 @@
 
 Start sclang and run the commands in `tidal/midi-init.scd`
 
-Start a tidal instance using a normal `BootTidal.hs`. IAC driver needs to be set up with a port called Tidal1 e.g. like in [this video](https://www.youtube.com/watch?v=cdB0dBGiar4)
+Start a tidal instance using a normal `BootTidal.hs` e.g. `ghci -ghci-script BootTidal.hs`. IAC driver needs to be set up with a port called Tidal1 e.g. like in [this video](https://www.youtube.com/watch?v=cdB0dBGiar4)
 
 Run the commands in `./tidal/hello-tidal.tidal`
 

@@ -46,7 +46,7 @@
 						<AutomationLanes>
 							<AutomationLane Id="0">
 								<SelectedDevice Value="1" />
-								<SelectedEnvelope Value="41" />
+								<SelectedEnvelope Value="59" />
 								<IsContentSelectedInDocument Value="false" />
 								<LaneHeight Value="68" />
 							</AutomationLane>
@@ -55,7 +55,7 @@
 					</AutomationLanes>
 					<ClipEnvelopeChooserViewState>
 						<SelectedDevice Value="1" />
-						<SelectedEnvelope Value="41" />
+						<SelectedEnvelope Value="59" />
 						<PreferModulationVisible Value="false" />
 					</ClipEnvelopeChooserViewState>
 					<AudioInputRouting>
@@ -352,7 +352,7 @@
 							</ArrangerAutomation>
 						</ClipTimeable>
 						<Recorder>
-							<IsArmed Value="false" />
+							<IsArmed Value="true" />
 							<TakeCounter Value="0" />
 						</Recorder>
 						<MidiControllers>
@@ -900,8 +900,8 @@
 								<ModulationSourceCount Value="0" />
 								<ParametersListWrapper LomId="0" />
 								<Pointee Id="22331" />
-								<LastSelectedTimeableIndex Value="41" />
-								<LastSelectedClipEnvelopeIndex Value="41" />
+								<LastSelectedTimeableIndex Value="59" />
+								<LastSelectedClipEnvelopeIndex Value="59" />
 								<LastPresetRef>
 									<Value>
 										<AbletonDefaultPresetRef Id="2">
@@ -1445,16 +1445,7 @@
 									<OscillatorOctRelativePosition Value="-1073741824" />
 									<OscillatorSemi>
 										<LomId Value="0" />
-										<KeyMidi>
-											<PersistentKeyString Value="" />
-											<IsNote Value="false" />
-											<Channel Value="0" />
-											<NoteOrController Value="30" />
-											<LowerRangeNote Value="-1" />
-											<UpperRangeNote Value="-1" />
-											<ControllerMapMode Value="0" />
-										</KeyMidi>
-										<Manual Value="-8" />
+										<Manual Value="7" />
 										<MidiControllerRange>
 											<Min Value="-12" />
 											<Max Value="12" />
@@ -1655,7 +1646,7 @@
 									</FilterKbdCutoffMod>
 									<FilterCutoffFrequency>
 										<LomId Value="0" />
-										<Manual Value="1" />
+										<Manual Value="0.6349206567" />
 										<MidiControllerRange>
 											<Min Value="0" />
 											<Max Value="1" />
@@ -1683,7 +1674,16 @@
 									</FilterKbdQMod>
 									<FilterQFactor>
 										<LomId Value="0" />
-										<Manual Value="0" />
+										<KeyMidi>
+											<PersistentKeyString Value="" />
+											<IsNote Value="false" />
+											<Channel Value="0" />
+											<NoteOrController Value="30" />
+											<LowerRangeNote Value="-1" />
+											<UpperRangeNote Value="-1" />
+											<ControllerMapMode Value="0" />
+										</KeyMidi>
+										<Manual Value="0.6299212575" />
 										<MidiControllerRange>
 											<Min Value="0" />
 											<Max Value="1" />
@@ -3129,7 +3129,7 @@
 										</MidiCCOnOffThresholds>
 									</FilterSlave>
 								</SignalChain2>
-								<SelectedFinger Value="0" />
+								<SelectedFinger Value="2" />
 							</UltraAnalog>
 						</Devices>
 						<SignalModulations />
@@ -4097,7 +4097,7 @@
 																	<FileRef>
 																		<RelativePathType Value="1" />
 																		<RelativePath Value="../../../../../github/fracnesco/HackYourDaw/devices/TidalSynth2.0.amxd" />
-																		<Path Value="/Users/jerry/Documents/github/fracnesco/HackYourDaw/devices/TidalSynth2.0.amxd" />
+																		<Path Value="/Users/jerry/github/fracnesco/HackYourDaw/devices/TidalSynth2.0.amxd" />
 																		<Type Value="2" />
 																		<LivePackName Value="" />
 																		<LivePackId Value="" />
@@ -7816,7 +7816,7 @@
 							</ArrangerAutomation>
 						</ClipTimeable>
 						<Recorder>
-							<IsArmed Value="true" />
+							<IsArmed Value="false" />
 							<TakeCounter Value="0" />
 						</Recorder>
 						<MidiControllers>
@@ -8429,7 +8429,7 @@
 																	<FileRef>
 																		<RelativePathType Value="1" />
 																		<RelativePath Value="../../../../../github/fracnesco/HackYourDaw/devices/TidalDrumRack3.0.amxd" />
-																		<Path Value="/Users/jerry/Documents/github/fracnesco/HackYourDaw/devices/TidalDrumRack3.0.amxd" />
+																		<Path Value="/Users/jerry/github/fracnesco/HackYourDaw/devices/TidalDrumRack3.0.amxd" />
 																		<Type Value="2" />
 																		<LivePackName Value="" />
 																		<LivePackId Value="" />
@@ -13083,7 +13083,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -13383,7 +13383,7 @@
 																															<SourceContext>
 																																<SourceContext Id="0">
 																																	<OriginalFileRef>
-																																		<FileRef Id="25">
+																																		<FileRef Id="28">
 																																			<RelativePathType Value="5" />
 																																			<RelativePath Value="Samples/One Shots/Drums/Rim/Rim 909.aif" />
 																																			<Path Value="/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Core Library/Samples/One Shots/Drums/Rim/Rim 909.aif" />
@@ -15025,7 +15025,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -21019,7 +21019,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -22947,7 +22947,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -26889,7 +26889,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -32883,7 +32883,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -34818,7 +34818,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -40812,7 +40812,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -43347,7 +43347,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -45882,7 +45882,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -48417,7 +48417,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -50354,7 +50354,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Library" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Library" />
 																					<Path Value="/../../../Users/pma/Library" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -52499,7 +52499,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -54644,7 +54644,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -56628,7 +56628,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -58612,7 +58612,7 @@
 																			<AbletonDefaultPresetRef Id="1">
 																				<FileRef>
 																					<RelativePathType Value="1" />
-																					<RelativePath Value="../../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
+																					<RelativePath Value="../../../../../../../../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Path Value="/../../../Users/pma/Dropbox (Ableton AG)" />
 																					<Type Value="2" />
 																					<LivePackName Value="" />
@@ -59056,7 +59056,7 @@
 															<ReturnBranch Id="0">
 																<LomId Value="0" />
 																<Name>
-																	<EffectiveName Value="a Mix Bus" />
+																	<EffectiveName Value="A Mix Bus" />
 																	<UserName Value="Mix Bus" />
 																	<Annotation Value="" />
 																	<MemorizedFirstClipName Value="" />
@@ -59149,7 +59149,7 @@
 																												<AbletonDefaultPresetRef Id="1">
 																													<FileRef>
 																														<RelativePathType Value="1" />
-																														<RelativePath Value="../../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Channel EQ" />
+																														<RelativePath Value="../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Channel EQ" />
 																														<Path Value="/../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Channel EQ" />
 																														<Type Value="2" />
 																														<LivePackName Value="" />
@@ -59496,7 +59496,7 @@
 																												<AbletonDefaultPresetRef Id="1">
 																													<FileRef>
 																														<RelativePathType Value="1" />
-																														<RelativePath Value="../../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Saturator" />
+																														<RelativePath Value="../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Saturator" />
 																														<Path Value="/../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Saturator" />
 																														<Type Value="2" />
 																														<LivePackName Value="" />
@@ -59821,7 +59821,7 @@
 																												<AbletonDefaultPresetRef Id="1">
 																													<FileRef>
 																														<RelativePathType Value="1" />
-																														<RelativePath Value="../../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Glue Compressor" />
+																														<RelativePath Value="../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Glue Compressor" />
 																														<Path Value="/../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Glue Compressor" />
 																														<Type Value="2" />
 																														<LivePackName Value="" />
@@ -60113,7 +60113,7 @@
 																												<AbletonDefaultPresetRef Id="1">
 																													<FileRef>
 																														<RelativePathType Value="1" />
-																														<RelativePath Value="../../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Drum Buss" />
+																														<RelativePath Value="../../../../../../../../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Drum Buss" />
 																														<Path Value="/../../../Users/philippmatalla/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Drum Buss" />
 																														<Type Value="2" />
 																														<LivePackName Value="" />
@@ -61161,7 +61161,7 @@
 															<ReturnBranch Id="1">
 																<LomId Value="0" />
 																<Name>
-																	<EffectiveName Value="b Reverb" />
+																	<EffectiveName Value="B Reverb" />
 																	<UserName Value="Reverb" />
 																	<Annotation Value="" />
 																	<MemorizedFirstClipName Value="" />
@@ -61195,7 +61195,7 @@
 																						<FilePresetRef Id="1">
 																							<FileRef>
 																								<RelativePathType Value="1" />
-																								<RelativePath Value="../../../../../../../../../../../Users/pma/Music/Ableton/User Library/Presets/Audio Effects/Reverb/MOVE REVERB Preset 3.adv" />
+																								<RelativePath Value="../../../../../../../../../../Users/pma/Music/Ableton/User Library/Presets/Audio Effects/Reverb/MOVE REVERB Preset 3.adv" />
 																								<Path Value="/../../../Users/pma/Music/Ableton/User Library/Presets/Audio Effects/Reverb/MOVE REVERB Preset 3.adv" />
 																								<Type Value="2" />
 																								<LivePackName Value="" />
@@ -63759,7 +63759,7 @@
 										<FilePresetRef Id="1">
 											<FileRef>
 												<RelativePathType Value="1" />
-												<RelativePath Value="../../../../../../../../Reverb Default.adv" />
+												<RelativePath Value="../../../../../../../Reverb Default.adv" />
 												<Path Value="/Reverb Default.adv" />
 												<Type Value="2" />
 												<LivePackName Value="" />
@@ -64509,7 +64509,7 @@
 										<FilePresetRef Id="0">
 											<FileRef>
 												<RelativePathType Value="1" />
-												<RelativePath Value="../../../../../../../nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
+												<RelativePath Value="../../../../../../nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
 												<Path Value="/Users/nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
 												<Type Value="2" />
 												<LivePackName Value="" />
@@ -64545,7 +64545,7 @@
 												<FilePresetRef Id="0">
 													<FileRef>
 														<RelativePathType Value="1" />
-														<RelativePath Value="../../../../../../../nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
+														<RelativePath Value="../../../../../../nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
 														<Path Value="/Users/nsh/Library/Application Support/Ableton/Live 11 Core Library/Devices/Audio Effects/Simple Delay/Dotted Eighth Note.adv" />
 														<Type Value="2" />
 														<LivePackName Value="" />
@@ -64969,7 +64969,7 @@
 						</EnvelopeTarget>
 						<Automation>
 							<Events>
-								<FloatEvent Id="0" Time="-63072000" Value="120" />
+								<FloatEvent Id="428" Time="-63072000" Value="120" />
 							</Events>
 							<AutomationTransformViewState>
 								<IsTransformPending Value="false" />
@@ -64994,7 +64994,7 @@
 					<AutomationLanes>
 						<AutomationLane Id="0">
 							<SelectedDevice Value="1" />
-							<SelectedEnvelope Value="2" />
+							<SelectedEnvelope Value="3" />
 							<IsContentSelectedInDocument Value="false" />
 							<LaneHeight Value="85" />
 						</AutomationLane>
@@ -65064,7 +65064,7 @@
 					<ModulationSourceCount Value="0" />
 					<ParametersListWrapper LomId="0" />
 					<Pointee Id="19730" />
-					<LastSelectedTimeableIndex Value="2" />
+					<LastSelectedTimeableIndex Value="3" />
 					<LastSelectedClipEnvelopeIndex Value="0" />
 					<LastPresetRef>
 						<Value />
@@ -65769,7 +65769,7 @@
 		<SoloInPlace Value="true" />
 		<CrossfadeCurve Value="2" />
 		<LatencyCompensation Value="2" />
-		<HighlightedTrackIndex Value="2" />
+		<HighlightedTrackIndex Value="1" />
 		<GroovePool>
 			<LomId Value="0" />
 			<Grooves />
